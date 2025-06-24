@@ -30,7 +30,7 @@ export default function FilterBar({ search, setSearch, filter, setFilter }) {
               : "bg-white border-gray-300 text-gray-700 hover:bg-green-50"
           }`}
         >
-          Lulus 🎓
+          COMPLETED 🎓
         </button>
         <button
           onClick={() => setFilter("notGraduated")}
@@ -40,7 +40,7 @@ export default function FilterBar({ search, setSearch, filter, setFilter }) {
               : "bg-white border-gray-300 text-gray-700 hover:bg-yellow-50"
           }`}
         >
-          Belum Lulus
+          MISSION ACTIVE
         </button>
       </div>
     </div>
